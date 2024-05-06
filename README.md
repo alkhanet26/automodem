@@ -1,6 +1,6 @@
 # AUTO RESTART MODEM untuk OPENWRT ALKHANET
 
-script ini untuk auto reboot modem usb stick/ modem bypass di firmware openwrt mod ALKHANET
+script ini untuk auto reboot modem usb stick/ modem bypass di firmware openwrt mod ALKHANET karena proses nya mutus arus USB
 paket pendukung httping
 
 ```
