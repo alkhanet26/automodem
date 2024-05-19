@@ -14,5 +14,5 @@ wget --no-check-certificate "https://raw.githubusercontent.com/alkhanet26/automo
 
 Setelah proses installasi selesai,,, tambahkan perintah di ``schedule task``
 ```
-*/1 * * * * sh /sbin/automodem youtube.com
+*/2 * * * * sh /sbin/automodem youtube.com
 ```
