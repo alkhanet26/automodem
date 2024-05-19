@@ -2,7 +2,7 @@
 
 bug=$1
 tgl=$(date)
-dc=$(httping -c 1 ${bug} | grep connected | cut -d= -f3 | grep -c ms)
+dc=$(httping -c 8 ${bug} | grep connected | cut -d= -f3 | grep -c ms)
 
 if [[ $dc = "1" ]]; then
    echo -e "Connected"
